@@ -31,9 +31,9 @@ services:
     depends_on: [unbound]
     environment:
       TZ: Europe/Berlin
-      ServerIP: 10.2.0.100 # Internal IP of PiHole
+      ServerIP: 10.2.0.100 # Internal IP of Pi-Hole
       DNS1: 10.2.0.200 # Unbound
-      DNS2: 10.2.0.200 # Unbound again. Otherwise it will pick Google DNS.
+      DNS2: 10.2.0.200 # Unbound again (otherwise it will pick Google DNS)
     volumes:
       - ./pihole/pihole:/etc/pihole/
       - ./pihole/dnsmasq:/etc/dnsmasq.d/
