@@ -12,4 +12,4 @@ IMPORTANT: Either use this locally or with a VPN. This project is not meant to b
 8. Check if everything is working by browsing to `http://<your-ip>/admin` and entering the password from the last step.
 
 ## Update
-`cd /srv/pihole && sudo docker-compose down -t 120 && sudo docker-compose pull && sudo docker-compose up -d --remove-orphans && sudo docker image prune`
+`cd /srv/pihole-unbound && sudo docker-compose down -t 120 && sudo docker-compose pull && sudo docker-compose up -d --remove-orphans && sudo docker image prune`
