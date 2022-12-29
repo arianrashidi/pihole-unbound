@@ -1,4 +1,4 @@
-# Docker Compose Project with Pi-hole and Unbound
+# Docker Compose project with Pi-hole and Unbound
 IMPORTANT: Either use this locally or with a VPN. This project is not meant to be used on a public server.
 
 ## Setup
